@@ -1,0 +1,64 @@
+/* section card */
+
+body {
+    background: linear-gradient(to bottom, #333 80%, #fff);
+    font-family: Arial, sans-serif;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .unitt-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  i {
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .fa-heart {
+    color: #ccc;
+  }
+  
+  .fa-heart.active {
+    color: #ff69b4;
+  }
+  
+  /* Total price  */
+  
+  .total-price-container {
+    text-align: center;
+    margin: 50px;
+    font-size: 24px;
+    font-weight: bold;
+  }
